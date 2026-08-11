@@ -14,6 +14,11 @@ class Player
     {
         Level++;
     }
+
+    public void ShowLevel()
+    {
+        Console.WriteLine($"Уровень: {Level}");
+    }
 }
 
 class Program
