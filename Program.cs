@@ -228,5 +228,7 @@ class Program
             }
         }
     }
+
+    // Изменение через GitHub
 }
 
