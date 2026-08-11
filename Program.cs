@@ -23,6 +23,10 @@ class Player
     {
         Console.WriteLine($"Имя: {Name}");
     }
+    public void ShowInfo()
+    {
+        Console.WriteLine($"{Name} — {Level} уровень");
+    }
 }
 
 class Program
