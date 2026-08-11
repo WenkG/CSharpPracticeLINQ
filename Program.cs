@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Text.RegularExpressions;
 
 class Player
 {
@@ -77,6 +76,11 @@ class Program
         }
     }
     
+    public void LevelUp()
+{
+    //Level++;
+}
+    
     static void LvlUpNewPlayers(List<Player> players)
     {   
         int lvlUp = 5;
@@ -95,7 +99,7 @@ class Program
         }
         else
         {
-            int playersNumber = players.Count();
+            int playersNumber = players.Count;
             Console.WriteLine($"Количество игроков: {playersNumber}");
 
             var averageLvl = players.Average(player => player.Level);
