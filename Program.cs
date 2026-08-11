@@ -233,5 +233,6 @@ class Program
     }
 
     // Изменение через GitHub
+    // Изменение после clone
 }
 
