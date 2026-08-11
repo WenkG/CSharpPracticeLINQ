@@ -19,6 +19,10 @@ class Player
     {
         Console.WriteLine($"Уровень: {Level}");
     }
+    public void ShowName()
+    {
+        Console.WriteLine($"Имя: {Name}");
+    }
 }
 
 class Program
