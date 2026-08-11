@@ -17,8 +17,9 @@ class Player
 
     public void ShowLevel()
     {
-        Console.WriteLine($"Уровень: {Level}");
+        Console.WriteLine($"Уровень игрока {Name}: {Level}");
     }
+    
     public void ShowName()
     {
 
