@@ -21,7 +21,7 @@ class Player
     }
     public void ShowName()
     {
-        Console.WriteLine($"Имя: {Name}");
+        Console.WriteLine($"Игрок: {Name}");
     }
     public void ShowInfo()
     {
