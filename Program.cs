@@ -10,6 +10,10 @@ class Player
         Name = name;
         Level = level;
     }
+    public void LevelUp()
+    {
+        Level++;
+    }
 }
 
 class Program
@@ -76,10 +80,6 @@ class Program
         }
     }
     
-    public void LevelUp()
-{
-    //Level++;
-}
     
     static void LvlUpNewPlayers(List<Player> players)
     {   
